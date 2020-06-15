@@ -7,7 +7,7 @@ $(document).ready(function(){
         pagination: false
     });
 
-    //Activate typed
+    //Activate typing of title elements
     var typed = new Typed(".typed", {
         strings: ["CS Student.", "Beginner Programmer.", "Future FullStack."],
         typeSpeed: 70,
@@ -16,6 +16,7 @@ $(document).ready(function(){
         showCursor: false
     });
 
+    //Activate skills carousel 
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
