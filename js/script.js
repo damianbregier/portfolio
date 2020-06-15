@@ -1,5 +1,5 @@
 //Read this fuction when document (page) is ready
-$(document).ready(function(){
+$(document).ready(function () {
     //Activates superslide
     $('#slides').superslides({
         animation: 'fade',
@@ -18,32 +18,42 @@ $(document).ready(function(){
 
     //Activate skills carousel 
     $('.owl-carousel').owlCarousel({
-        loop:true,
+        loop: true,
         items: 4,
-        responsive:{
-            0:{
-                items:1
+        responsive: {
+            0: {
+                items: 1
             },
-            480:{
-                items:2
+            480: {
+                items: 2
             },
-            768:{
-                items:3
+            768: {
+                items: 3
             },
-            966:{
-                items:4
+            966: {
+                items: 4
             }
         }
     })
-    $('.chart').easyPieChart({
-        easing: 'easeInOut',
-        barColor: '#fff',
-        trackColor: false,
-        scaleColor: false,
-        lineWidth: 4,
-        size: 152,
-        onStep: function(from, to, percent){
-            $(this.el).find('.percent').text(Math.round(percent));
+    //Get cursor position and start animation of loading chart
+    //where cursor reach skills section + certain delay
+    var skillsTopOffset = $(".skillsSection").offset().top;
+
+    $(window).scroll(function () {
+        if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+            $('.chart').easyPieChart({
+                easing: 'easeInOut',
+                barColor: '#fff',
+                trackColor: false,
+                scaleColor: false,
+                lineWidth: 4,
+                size: 152,
+                onStep: function (from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+
+            });
+
         }
 
     });
