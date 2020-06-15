@@ -1,0 +1,22 @@
+/*Style applied to both navigation arrows*/
+.slides-navigation .prev,
+.slides-navigation .next {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*a.next is more detailed and allow to overwrite
+css in bootstrap*/
+.slides-navigation a.prev {
+    left: 20px;
+    background-image: url('../icons/previous.png');
+
+}
+
+.slides-navigation a.next {
+    right: 20px;
+    background-image: url('../icons/next.png');
+
+}
