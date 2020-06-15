@@ -7,4 +7,13 @@ $(document).ready(function(){
         pagination: false
     });
 
+    //Activate typed
+    var typed = new Typed(".typed", {
+        strings: ["CS Student", "Beginner Programmer", "Future FullStack"],
+        typeSpeed: 70,
+        loop: true,
+        startDelay: 1000,
+        showCursor: false
+    });
+
 });
