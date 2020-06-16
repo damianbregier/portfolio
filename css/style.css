@@ -189,3 +189,32 @@ css in bootstrap*/
     color: #2d3436;
     background-color: white;
 }
+
+/*Filter section*/
+.filter a{
+    color: #2d3436;
+    border: 1px solid #2d3436;
+    padding: 10px;
+    display: block;
+}
+
+.filter li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.filter .current{
+    background-color: #2d3436;
+    border-color: #2d3436;
+    color: white;
+}
+
+.filter {
+    text-align: center;
+    width: 100%;
+}
+
+.section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
