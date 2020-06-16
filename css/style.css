@@ -354,6 +354,7 @@ css in bootstrap*/
     background-color: #2d3436;
     padding: 20px 10px;
     z-index: 101;
+    width: 100%;
 }
 
 #navigation li {
@@ -363,8 +364,8 @@ css in bootstrap*/
 
 #navigation li a {
     color: white;
-}
 
+}
 .navbar-brand,
 .navbar-brand:hover{
     color: white;
