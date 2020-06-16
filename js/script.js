@@ -72,6 +72,8 @@ $(document).ready(function () {
 
 
     });
+    //Activates fancy box
+    $("[data-fancybox]").fancybox();
 
 
 
