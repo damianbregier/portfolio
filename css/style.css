@@ -217,6 +217,7 @@ css in bootstrap*/
 .section .heading {
     text-align: center;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 .items li {
@@ -264,6 +265,13 @@ css in bootstrap*/
     background-color: #2d3436;
     position: relative;
     display: inline-block;
+
+        /*Transitions for different web browsers*/
+        -webkit-transition: all 0.2s linear, 1s;
+        -moz-transition: all 0.2s linear, 1s;
+        -o-transition: all 0.2s linear, 1s;
+        -ms-transition: all 0.2s linear, 1s;
+        -transition: all 0.2s linear 1s;
 }
 
 /*Opacity 0 means it's hidden*/
@@ -281,10 +289,32 @@ css in bootstrap*/
     -moz-transition: all 0.2s linear, 1s;
     -o-transition: all 0.2s linear, 1s;
     -ms-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear 1s;
+    -transition: all 0.2s linear 1s;
 }
 
 /*Shows with change of opacity at hover*/
 .items .item:hover .imageOverlay{
     opacity: 1;
+}
+
+.items .openButton {
+    float: left;
+    left: -200px;
+
+}
+
+.items .projectLink {
+    float: right;
+    right: -200px;
+
+}
+
+.items .item:hover .openButton{
+    left: 0px;
+
+}
+
+.items .item:hover .projectLink{
+    right: 0px;
+
 }
