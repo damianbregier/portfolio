@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     //Activate typing of title elements
     var typed = new Typed(".typed", {
-        strings: ["CS Student.", "Beginner Programmer.", "Future FullStack."],
+        strings: ["CS Student.", "Beginner Programmer.", "Future FullStack.", "Wannabe Developer.", "Book Worm."],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
