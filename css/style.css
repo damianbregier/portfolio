@@ -338,3 +338,14 @@ css in bootstrap*/
 .items{
     padding: 0px;
 }
+
+.copyrightSection {
+    background-color: black;
+    color: white;
+    padding: 30px 5px;
+}
+
+.copyrightSection p {
+    margin: 0;
+    
+}
