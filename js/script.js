@@ -1,3 +1,9 @@
+$(window).on("load", function(){
+    $(".loader .inner").fadeOut(2000, function(){
+        $(".loader").fadeOut(2500);
+    });
+})
+
 //Read this fuction when document (page) is ready
 $(document).ready(function () {
     //Activates superslide
