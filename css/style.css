@@ -258,7 +258,7 @@ css in bootstrap*/
 }
 
 /*Here might be a problem with icons positions on the pictures*/
-.items .icons i{
+.items .icons i {
     color: #fff;
     font-size: 20px;
     margin-top: 9px;
@@ -266,7 +266,7 @@ css in bootstrap*/
 
 
 .items a {
-    width: 48px;
+    width: 40px;
     height: 40px;
     background-color: #2d3436;
     position: relative;
