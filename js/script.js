@@ -46,7 +46,7 @@ $(document).ready(function () {
             768: {
                 items: 3
             },
-            966: {
+            940: {
                 items: 4
             }
         }
