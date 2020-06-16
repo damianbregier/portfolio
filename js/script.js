@@ -2,9 +2,19 @@ $(window).on("load", function(){
     $(".loader .inner").fadeOut(2000, function(){
         $(".loader").fadeOut(2500);
     });
+
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    });
+
 })
 
-//Read this fuction when document (page) is ready
+//Read this function when document (page) is ready
 $(document).ready(function () {
     //Activates superslide
     $('#slides').superslides({
@@ -80,14 +90,7 @@ $(document).ready(function () {
     });
     //Activates fancy box
     $("[data-fancybox]").fancybox();
-    $(".items").isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 1500,
-            easing: 'linear',
-            queue: false
-        }
-    });
+
 
     $("#filters a").click(function () {
         $("#filters .current").removeClass("current");
