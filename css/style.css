@@ -410,3 +410,15 @@ css in bootstrap*/
 
 }
 
+.row h2 {
+    margin-bottom: 20px;
+}
+
+.row h4{
+    margin-top: 20px;
+}
+
+.row p{
+    margin-bottom: 50px;
+}
+
