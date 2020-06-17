@@ -281,6 +281,7 @@ css in bootstrap*/
         -transition: all 0.2s linear 1s;
 }
 
+
 /*Opacity 0 means it's hidden*/
 .items .imageOverlay {
     width: 100%;
@@ -319,6 +320,10 @@ css in bootstrap*/
 .items .item:hover .openButton{
     left: 0px;
 
+}
+
+.icons a i:hover{
+    color: #f0ac17;
 }
 
 .items .item:hover .projectLink{
