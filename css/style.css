@@ -171,7 +171,7 @@ css in bootstrap*/
     height: 60px;
     font-size: 45px;
     margin-left: -20%;
-    color: #444;
+    color: #f0ac17;
 }
 
 /*Contact section*/
@@ -365,8 +365,12 @@ css in bootstrap*/
 
 #navigation li a {
     color: white;
-
 }
+
+#navigation li a:hover{
+    color: #f0ac17;
+}
+
 .navbar-brand,
 .navbar-brand:hover{
     color: white;
